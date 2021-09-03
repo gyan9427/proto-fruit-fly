@@ -1,0 +1,20 @@
+{
+    "name": "gyan/pff",
+    "description": "pff is a project which implement prototype design pattern",
+    "authors": [
+        {
+            "name": "gyan",
+            "email": "gyan9427@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Src\\":"src/"
+        }
+    },
+    "scripts": {
+        "server" : "php -S 127.0.0.1:8000 -t public"
+    }
+    
+}
